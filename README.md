@@ -56,6 +56,14 @@ me@my-pc ~/some/repo (branch-name) $
 
 Add [mioty.bash_profile](https://github.com/Mioty/toolbelt/blob/master/mioty.bash_profile) to your ~./bash_profile
 
+## Repos
+
+All repos contain an *init_repo* script. Please utilize this to set up proper dependencies and such.
+
+```bash
+./init_repo.sh
+```
+
 ## Commiting 
 
 Commits must follow [CONVENTIONS](https://github.com/Mioty/toolbelt/blob/master/CONVENTIONS.md)
