@@ -1,5 +1,5 @@
 [alias]
-	cb = "!f() { git checkout master && git push origin HEAD:refs/heads/$1 && git fetch origin && git checkout --track -b $1 origin/$1; }; f"
+	cb = "!f() { git checkout master && git up && git push origin HEAD:refs/heads/$1 && git fetch origin && git checkout --track -b $1 origin/$1; }; f"
 	co = checkout
 	up = !git pull --rebase --prune $@ && git submodule update --init --recursive
 	cm = gui citool
